@@ -1,18 +1,39 @@
-# Basic Switch Configuration Lab
+# Lab 01 - Basic Switch Configuration
 
 ## Objective
 
-Connect two PCs through a switch and verify connectivity.
+Configure a Cisco switch and verify connectivity between four hosts.
 
 ## Topology
 
-- 1 Switch
-- 2 PCs
+![Topology](full_topolg)
+
+## Devices
+
+- Cisco 2960 Switch
+- 4 PCs
+
+## Configuration
+
+### Hostname
+
+```cisco
+hostname SW1
+```
+
+### Banner
+
+```cisco
+banner motd #Authorized Access Only#
+```
 
 ## Verification
 
-Ping successful between hosts.
+Successful ping between all hosts.
 
 ## Lessons Learned
 
-Devices in the same subnet can communicate through a switch.
+- Basic switch configuration
+- Hostname configuration
+- MOTD banner configuration
+- Connectivity verification using ICMP
