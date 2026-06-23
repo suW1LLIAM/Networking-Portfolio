@@ -6,7 +6,7 @@ Configure a Cisco switch and verify connectivity between four hosts.
 
 ## Topology
 
-![Topology](full_topolg)
+![Topology](topology.png)
 
 ## Devices
 
